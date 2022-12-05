@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Redis": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RedisPassword": "mypassword",
+        "ConnectionString": "localhost:6379"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
